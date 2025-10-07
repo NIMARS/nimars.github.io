@@ -18,7 +18,7 @@
 
 ---
 
-## 🇷🇺 Русская версия
+## 🇷🇺 Русская версия <a id="russian-version"></a>
 
 **Кудашов Роман** — Junior Backend Engineer (Node.js/TypeScript)  
 Алматы / Remote · [GitHub](https://github.com/NIMARS) · [LinkedIn](https://www.linkedin.com/in/nimars/) · [Email](mailto:mars7010ry@gmail.com)
@@ -82,7 +82,7 @@ Back: Node.js + Express (REST), Front: React + Vite; БД: PostgreSQL; Swagger; 
 
 ---
 
-## 🇬🇧 English version
+## 🇬🇧 English version <a id="english-version"></a>
 
 **Roman Kudashov** — Junior Backend Engineer (Node.js/TypeScript)  
 Almaty / Remote · [GitHub](https://github.com/NIMARS) · [LinkedIn](https://www.linkedin.com/in/nimars/) · [Email](mailto:mars7010ry@gmail.com)
