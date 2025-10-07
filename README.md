@@ -70,8 +70,15 @@ Back: Node.js + Express (REST), Front: React + Vite; БД: PostgreSQL; Swagger; 
 
 ---
 
-### Roadmap (что сейчас допиливаю)
-Redis rate-limit/блок-листы · Testcontainers (Postgres) · OpenTelemetry/Prometheus · GH Actions (deploy) · MinIO pre-signed URL
+## Контакты
+- GitHub: https://github.com/NIMARS  
+- LinkedIn: https://www.linkedin.com/in/nimars/  
+- Email: mars7010ry@gmail.com
+
+---
+
+### PDF
+- [Скачать резюме (PDF)](./CV.pdf)
 
 ---
 
@@ -119,6 +126,14 @@ Backend: Node.js + Express (REST), Frontend: React + Vite; PostgreSQL; Swagger; 
 
 ---
 
+### **Experience and Education**
+**Lead Specialist · Institute of Information Technologies (03.2022–10.2024)** — PostgreSQL (indexes/EXPLAIN), server-side scripts/integrations, documentation.
+**Assistant · St. Petersburg State Marine Technical University (10.2020–10.2024)** — teaching materials and practice in C++/Python/Computer Science, project work (Git, code review).
+**Engineer · Radio Control Technologies and Gamma (04.2018–02.2022)** — C++/Java utilities and libraries.
+**SMTU** — B.Sc. in Applied Mathematics, M.Sc. in Computer Science and Engineering, Ph.D. studies (Mathematical Modeling).
+
+---
+
 ## Contacts
 - GitHub: https://github.com/NIMARS  
 - LinkedIn: https://www.linkedin.com/in/nimars/  
@@ -127,5 +142,5 @@ Backend: Node.js + Express (REST), Frontend: React + Vite; PostgreSQL; Swagger; 
 ---
 
 ### PDF
-- [Скачать резюме (PDF)](./CV.pdf)
+- [Download CV (PDF)](./CV.pdf)
 
