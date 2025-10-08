@@ -20,7 +20,7 @@
 
 ## 🇷🇺 Русская версия <a id="russian-version"></a>
 
-**Кудашов Роман** — Junior Backend Engineer (Node.js/TypeScript)  
+**Кудашов Роман** — Backend Developer (Node.js/TypeScript)  
 Алматы / Remote · [GitHub](https://github.com/NIMARS) · [LinkedIn](https://www.linkedin.com/in/nimars/) · [Email](mailto:mars7010ry@gmail.com)
 
 ### Summary
@@ -28,7 +28,6 @@
 **PostgreSQL + Prisma**: схема/миграции/индексы, **JSONB/GIN**, курсорная пагинация.  
 **JWT** с refresh-ротацией (**HttpOnly cookie**), prod-штрихи: `/health` и `/ready`, **docker-compose**, **Nginx**.  
 Английский C1 (IELTS).
-Открыт к Junior/стажировке, remote/Алматы.
 
 ### Навыки
 **Backend:**       Node.js, TypeScript, Fastify/Express, REST, Middleware, Zod, Pino, централизованный error-handler, AsyncLocalStorage  
@@ -63,10 +62,10 @@ Back: Node.js + Express (REST), Front: React + Vite; БД: PostgreSQL; Swagger; 
 ---
 
 ### Опыт и образование (коротко)
-**Ведущий специалист** · Институт информационных технологий (03.2022–10.2024) — PostgreSQL (индексы/EXPLAIN), серверные скрипты/интеграции, документация.  
+**Ведущий специалист** · Институт информационных технологий (03.2022–10.2024) — PostgreSQL, серверные скрипты/интеграции, документация.  
 **Ассистент** · СПбГМТУ (10.2020–10.2024) — материалы/практики по C++/Python/CS, проекты (Git, code review).  
 **Инженер** · Технологии радиоконтроля и Гамма (04.2018–02.2022) — утилиты/библиотеки C++/Java.  
-**СПбГМТУ** — Прикладная математика (Бакалавр), Информатика и вычислительная техника (Магистр), Аспирантура (матмоделирование).
+**СПбГМТУ** — Прикладная математика (Бакалавр), Информатика и вычислительная техника (Магистр), Математическое моделирование, численные методы и комплексы программ (Педагог исследователь, аспирантура).
 
 ---
 
@@ -84,14 +83,13 @@ Back: Node.js + Express (REST), Front: React + Vite; БД: PostgreSQL; Swagger; 
 
 ## 🇬🇧 English version <a id="english-version"></a>
 
-**Roman Kudashov** — Junior Backend Engineer (Node.js/TypeScript)  
+**Roman Kudashov** — Backend Developer (Node.js/TypeScript)  
 Almaty / Remote · [GitHub](https://github.com/NIMARS) · [LinkedIn](https://www.linkedin.com/in/nimars/) · [Email](mailto:mars7010ry@gmail.com)
 
 ### Summary
 I build backend APIs with **Node.js/TypeScript**, using **Zod** for validation, **Pino** for structured logs, and **OpenAPI/Swagger** for docs.  
 **PostgreSQL + Prisma**: schema/migrations/indexes, **JSONB/GIN**, **cursor pagination**.  
 **JWT** with refresh rotation (**HttpOnly cookie**). Production bits: `/health`, `/ready`, **docker-compose**, **Nginx**.  
-English C1 (IELTS). Open to Junior/Intern roles, remote/Almaty.
 
 ### Skills
 **Backend:** Node.js, TypeScript, Fastify/Express, REST, Middleware, Zod, Pino, centralized error handler, AsyncLocalStorage  
@@ -109,12 +107,12 @@ English C1 (IELTS). Open to Junior/Intern roles, remote/Almaty.
 #### 🐾 AllAboutPet — Express→Fastify, TypeScript, Prisma, PostgreSQL
 CRUD for pets/events/docs; JWT: access (header) + refresh (HttpOnly, rotation, DB sessions); **Zod → OpenAPI**; uploads (Multer, **SHA-256**, local → **MinIO/S3**); **cursor pagination**; **GIN** for JSONB tags; centralized error handler + **Pino**; `/health`, `/ready`.  
 **DevOps/QA:** Dockerfile (multi-stage), docker-compose (api+pg[+redis+minio]), `.env.example` (+validation), Nginx, Jest/Supertest (20+), ESLint/Prettier, GitHub Actions (lint+test+build)  
-**Repo:** https://github.com/NIMARS/all-about-pet · **Swagger:** _add link_ · **Demo:** _optional_
+**Repo:** https://github.com/NIMARS/all-about-pet
 
 #### 📝 Notes API — Fastify, TypeScript, Prisma, PostgreSQL
 CRUD + tag filter; **Zod → JSON Schema**, **Pino**; PostgreSQL: **GIN** on `tags` (JSONB), cursor `(created_at,id)`.  
 **Docs/DevOps/QA:** Swagger (/docs), docker-compose (api+pg), Jest/Supertest (20+)  
-**Repo:** https://github.com/NIMARS/notes-api · **Swagger:** _add link_
+**Repo:** https://github.com/NIMARS/notes-api
 
 #### ✅ TodoApp — PERN, TypeScript
 Backend: Node.js + Express (REST), Frontend: React + Vite; PostgreSQL; Swagger; integration tests (Jest + Supertest).  
@@ -122,15 +120,15 @@ Backend: Node.js + Express (REST), Frontend: React + Vite; PostgreSQL; Swagger; 
 
 #### 🧪 Engineering Data dApp — Fastify, TS, ethers.js, Solidity
 **EIP-712** signatures, `Transfer` event subscription, ACL (admin/user), IPFS; Solidity contracts (Hardhat, tests, OZ), deploy scripts; backend: ethers.js (RPC retries, rate-limit).  
-**Repo:** _add link_
 
 ---
 
 ### **Experience and Education**
-**Lead Specialist · Institute of Information Technologies (03.2022–10.2024)** — PostgreSQL (indexes/EXPLAIN), server-side scripts/integrations, documentation.
-**Assistant · St. Petersburg State Marine Technical University (10.2020–10.2024)** — teaching materials and practice in C++/Python/Computer Science, project work (Git, code review).
-**Engineer · Radio Control Technologies and Gamma (04.2018–02.2022)** — C++/Java utilities and libraries.
-**SMTU** — B.Sc. in Applied Mathematics, M.Sc. in Computer Science and Engineering, Ph.D. studies (Mathematical Modeling).
+**Lead Specialist** · Institute of Information Technologies (03.2022–10.2024) — PostgreSQL, server-side scripts/integrations, documentation.
+**Assistant** · St. Petersburg State Marine Technical University (10.2020–10.2024) — teaching materials and practice in C++/Python/Computer Science, projects (Git, code review).
+**Engineer** · Radio Control Technologies and Gamma (04.2018–02.2022) — C++/Java utilities and libraries.
+**SPbSMTU** — B.Sc. in Applied Mathematics, M.Sc. in Computer Science and Engineering, Ph.D. studies (postgraduate study) in Mathematical Modeling, Numerical Methods, and Software Systems (Teacher Researcher).
+
 
 ---
 
