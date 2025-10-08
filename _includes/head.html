@@ -31,12 +31,6 @@
   content="{{ page.og_image | default:'/assets/img/og-ru.png' | absolute_url }}"
 />
 
-{% if page.lang == 'en' %}
-<meta property="og:locale" content="en_US" />
-{% else %}
-<meta property="og:locale" content="ru_RU" />
-{% endif %}
-
 <meta
   name="theme-color"
   content="#0b0b0e"
