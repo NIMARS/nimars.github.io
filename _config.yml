@@ -1,0 +1,11 @@
+title: "Roman Kudashov — Backend Engineer"
+url: "https://nimars.github.io"
+baseurl: ""
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+defaults:
+  - scope: { path: "ru" }
+    values: { lang: "ru" }
+  - scope: { path: "en" }
+    values: { lang: "en" }

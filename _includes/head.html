@@ -1,0 +1,99 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>{{ page.title | default: site.title }}</title>
+<meta
+  name="description"
+  content="{{ page.description | default: 'Backend Engineer (Node.js/TS, Fastify/Express, PostgreSQL+Prisma, OpenAPI, Docker)' }}"
+/>
+
+<!-- Canon -_- -->
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+<!-- Alternate (rock) -->
+<link rel="alternate" hreflang="ru" href="{{ '/ru/' | absolute_url }}" />
+<link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}" />
+<link rel="alternate" hreflang="x-default" href="{{ '/ru/' | absolute_url }}" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="{{ page.og_title | default: page.title | default: site.title }}"
+/>
+<meta
+  property="og:description"
+  content="{{ page.description | default: 'Backend Engineer (Node.js/TS, Fastify/Express, PostgreSQL+Prisma, OpenAPI, Docker)' }}"
+/>
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta
+  property="og:image"
+  content="{{ page.og_image | default:'/assets/img/og-ru.png' | absolute_url }}"
+/>
+
+{% if page.lang == 'en' %}
+<meta property="og:locale" content="en_US" />
+{% else %}
+<meta property="og:locale" content="ru_RU" />
+{% endif %}
+
+<meta
+  name="theme-color"
+  content="#0b0b0e"
+  media="(prefers-color-scheme: dark)"
+/>
+<meta
+  name="theme-color"
+  content="#ffffff"
+  media="(prefers-color-scheme: light)"
+/>
+
+<!-- Twitter Card if someone share that to X:3-->
+<meta name="twitter:card" content="summary_large_image" />
+<meta
+  name="twitter:title"
+  content="{{ page.og_title | default: page.title | default: site.title }}"
+/>
+<meta
+  name="twitter:description"
+  content="{{ page.description | default: 'Backend Engineer — Node.js/TypeScript' }}"
+/>
+<meta
+  name="twitter:image"
+  content="{{ page.og_image | default:'/assets/img/og-ru.png' | absolute_url }}"
+/>
+
+<link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}" />
+
+<!-- JSON-LD (Person) -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Roman Kudashov",
+    "jobTitle": "Backend Engineer",
+    "url": "{{ site.url }}",
+    "email": "mailto:mars7010ry@gmail.com",
+    "sameAs": [
+      "https://github.com/NIMARS",
+      "https://www.linkedin.com/in/nimars/"
+    ],
+    "knowsAbout": [
+      "Node.js",
+      "TypeScript",
+      "Fastify",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "Docker",
+      "OpenAPI",
+      "JWT"
+    ],
+    "alumniOf": [{ "@type": "CollegeOrUniversity", "name": "SPbSMTU" }],
+    "knowsLanguage": ["English", "Russian"]
+  }
+</script>
+
+<!-- Umami exampl if i will sitch to my domain :3:
+<script async src="https://stats.yourdomain.com/script.js" data-website-id="YOUR-UMAMI-ID"></script>
+-->
