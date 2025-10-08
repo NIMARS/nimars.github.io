@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ru' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+    <main class="container">{{ content }}</main>
+    <footer class="footer">
+      <small
+        >© {{ 'now' | date: "%Y" }} Roman Kudashov —
+        <a href="#contacts">Contacts</a></small
+      >
+    </footer>
+  </body>
+</html>

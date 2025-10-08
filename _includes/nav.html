@@ -1,0 +1,32 @@
+<nav class="nav">
+  {% if page.lang == 'en' %}
+  <a href="{{ '/en/' | relative_url }}">Home</a>
+  {% else %}
+  <a href="{{ '/ru/' | relative_url }}">Главная</a>
+  {% endif %}
+
+  <a href="#summary"
+    >{% if page.lang == 'en' %}Summary{% else %}Обо мне{% endif %}</a
+  >
+  <a href="#skills"
+    >{% if page.lang == 'en' %}Skills{% else %}Навыки{% endif %}</a
+  >
+  <a href="#projects"
+    >{% if page.lang == 'en' %}Projects{% else %}Проекты{% endif %}</a
+  >
+  <a href="#experience"
+    >{% if page.lang == 'en' %}Experience{% else %}Опыт{% endif %}</a
+  >
+  <a href="#education"
+    >{% if page.lang == 'en' %}Education{% else %}Образование{% endif %}</a
+  >
+  <a href="#contacts"
+    >{% if page.lang == 'en' %}Contacts{% else %}Контакты{% endif %}</a
+  >
+
+  {% if page.lang == 'ru' %}
+  <a class="lang" href="{{ '/en/' | relative_url }}">EN</a>
+  {% else %}
+  <a class="lang" href="{{ '/ru/' | relative_url }}">RU</a>
+  {% endif %}
+</nav>
