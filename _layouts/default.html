@@ -12,5 +12,47 @@
         <a href="#contacts">Contacts</a></small
       >
     </footer>
+
+    <script>
+      (function () {
+        function setTheme(next) {
+          document.documentElement.setAttribute("data-theme", next);
+          try {
+            localStorage.setItem("theme", next);
+          } catch (e) {}
+
+          var bg =
+            getComputedStyle(document.documentElement)
+              .getPropertyValue("--bg")
+              .trim() || "#ffffff";
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (!meta) {
+            meta = document.createElement("meta");
+            meta.setAttribute("name", "theme-color");
+            document.head.appendChild(meta);
+          }
+          meta.setAttribute("content", bg);
+        }
+
+        setTheme(
+          document.documentElement.getAttribute("data-theme") || "light"
+        );
+
+        var btn = document.getElementById("theme-toggle");
+        if (btn) {
+          btn.addEventListener("click", function () {
+            var curr =
+              document.documentElement.getAttribute("data-theme") || "light";
+            var next = curr === "dark" ? "light" : "dark";
+            setTheme(next);
+
+            btn.setAttribute(
+              "aria-label",
+              next === "dark" ? "Switch to light theme" : "Switch to dark theme"
+            );
+          });
+        }
+      })();
+    </script>
   </body>
 </html>

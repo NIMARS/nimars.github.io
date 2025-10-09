@@ -29,4 +29,20 @@
   {% else %}
   <a class="lang" href="{{ '/ru/' | relative_url }}">RU</a>
   {% endif %}
+
+  <button
+    id="theme-toggle"
+    class="theme-toggle"
+    type="button"
+    aria-label="Switch theme"
+    title="Switch theme"
+  >
+    🌙/☀️
+  </button>
+
+  {% if page.lang == 'ru' %}
+  <a class="lang" href="{{ '/en/' | relative_url }}">EN</a>
+  {% else %}
+  <a class="lang" href="{{ '/ru/' | relative_url }}">RU</a>
+  {% endif %}
 </nav>

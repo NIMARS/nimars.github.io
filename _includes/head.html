@@ -31,17 +31,6 @@
   content="{{ page.og_image | default:'/assets/img/og-ru.png' | absolute_url }}"
 />
 
-<meta
-  name="theme-color"
-  content="#0b0b0e"
-  media="(prefers-color-scheme: dark)"
-/>
-<meta
-  name="theme-color"
-  content="#ffffff"
-  media="(prefers-color-scheme: light)"
-/>
-
 <!-- Twitter Card if someone share that to X:3-->
 <meta name="twitter:card" content="summary_large_image" />
 <meta
@@ -55,6 +44,32 @@
 <meta
   name="twitter:image"
   content="{{ page.og_image | default:'/assets/img/og-ru.png' | absolute_url }}"
+/>
+
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("theme");
+      var theme = saved
+        ? saved
+        : window.matchMedia &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+      document.documentElement.setAttribute("data-theme", theme);
+    } catch (e) {}
+  })();
+</script>
+
+<meta
+  name="theme-color"
+  content="#0b0b0e"
+  media="(prefers-color-scheme: dark)"
+/>
+<meta
+  name="theme-color"
+  content="#ffffff"
+  media="(prefers-color-scheme: light)"
 />
 
 <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}" />
