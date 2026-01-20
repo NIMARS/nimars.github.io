@@ -79,7 +79,6 @@ Express/TypeScript, PostgreSQL, React/Vite, Swagger/OpenAPI, Jest/Supertest
 ## Contacts {#contacts}
 
 - GitHub: <https://github.com/NIMARS>  
-- LinkedIn: <https://www.linkedin.com/in/nimars/>  
 - Email: <mars7010ry@gmail.com>
 
 ### PDF
