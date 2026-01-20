@@ -86,6 +86,7 @@ Express/TypeScript, Prisma (PostgreSQL), Vue 3/Vite, Swagger/OpenAPI, Zod, JWT, 
 
 - Личные пользовательские заметки, CRUD + статус выполнения.  
 - Auth: JWT + bcrypt; API docs (/docs).  
+**Repo:** <https://github.com/NIMARS/Notes-Platform-by-NIMARS>
 
 #### ✅ TodoApp — PERN-приложение (Fullstack demo)
 
@@ -106,7 +107,7 @@ Express/TypeScript, PostgreSQL, React/Vite, Swagger/OpenAPI, Jest/Supertest
 
 **Roman Kudashov**  — Backend Developer (Node.js/TypeScript)  
 Almaty / Remote · Telegram: [@thenimars](https://t.me/thenimars) · Email: [mars7010ry@gmail.com](mailto:mars7010ry@gmail.com)  
-GitHub: https://github.com/NIMARS · Portfolio: https://nimars.github.io
+GitHub: <https://github.com/NIMARS> · Portfolio: <https://nimars.github.io>
 
 ### Summary
 
@@ -153,7 +154,7 @@ Fastify/TypeScript, Prisma (PostgreSQL), Swagger/OpenAPI, Zod, Jest/Supertest, D
 - JSONB + GIN, cursor pagination (createdAt, id).  
 - Unified error format + reqId, structured logging (Pino).  
 - 20+ e2e tests, /docs.  
-**Repo:** https://github.com/NIMARS/notes-api
+**Repo:** <https://github.com/NIMARS/notes-api>
 
 #### 🐾 All About Pet — fullstack (API + Web, monorepo)
 
@@ -162,7 +163,7 @@ Node.js/Express/TypeScript, Prisma (PostgreSQL), React/Vite, Zod, Multer, MinIO/
 - Pets/events/docs/favorites.  
 - Auth: JWT access + refresh (HttpOnly, rotation), CORS.  
 - Uploads (Multer) → MinIO/S3 storage.  
-**Repo:** https://github.com/NIMARS/all-about-pet
+**Repo:** <https://github.com/NIMARS/all-about-pet>
 
 #### 🗒️ Notes Platform — fullstack with auth
 
@@ -170,13 +171,14 @@ Express/TypeScript, Prisma (PostgreSQL), Vue 3/Vite, Swagger/OpenAPI, Zod, JWT, 
 
 - Personal user notes, CRUD + done status.  
 - Auth: JWT + bcrypt; API docs (/docs).  
+**Repo:** <https://github.com/NIMARS/Notes-Platform-by-NIMARS>
 
 #### ✅ TodoApp — PERN demo
 
 Express/TypeScript, PostgreSQL, React/Vite, Swagger/OpenAPI, Jest/Supertest  
 
 - TODO CRUD; Swagger + integration tests.  
-**Repo:** https://github.com/NIMARS/todo-pern-ts
+**Repo:** <https://github.com/NIMARS/todo-pern-ts>
 
 ---
 

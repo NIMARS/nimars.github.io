@@ -1,63 +1,80 @@
 ---
 layout: default
-title: "Roman Kudashov — Backend Engineer (Node.js/TS)"
+title: "Roman Kudashov — Backend Developer (Node.js/TypeScript)"
 lang: en
 permalink: /en/
 description: "Node.js/TS, Fastify/Express, PostgreSQL+Prisma, OpenAPI/Swagger, Docker. Almaty/Remote."
 og_image: /assets/img/og-en.png
 ---
 
-# Roman Kudashov — Backend Engineer (Node.js/TypeScript)
+# Roman Kudashov — Backend Developer (Node.js/TypeScript)
 
-- GitHub: <https://github.com/NIMARS> · LinkedIn: <https://www.linkedin.com/in/nimars/> · Email: <mailto:mars7010ry@gmail.com>
+- GitHub: <https://github.com/NIMARS> · Email: <mailto:mars7010ry@gmail.com>
 
 ## Summary {#summary}
 
-> I build backend APIs with Node.js/TS using Zod, Pino and OpenAPI/Swagger.
-> PostgreSQL+Prisma: schema/migrations/indexes, JSONB/GIN, cursor pagination. JWT with refresh rotation (HttpOnly).
+> Backend developer (Node.js/TypeScript) with **2.5+ years** in internal R&D systems.  
+> REST APIs, auth (JWT/OAuth2, RBAC), PostgreSQL (joins/windows/indexes, EXPLAIN/ANALYZE), Swagger/OpenAPI, tests (Jest/Supertest).  
+> English C1.
 
 ## Skills {#skills}
 
-**Backend:** Node.js, TypeScript, Fastify/Express, REST, Middleware, Zod, Pino, centralized error handler, AsyncLocalStorage  
-**Auth/Sec:** JWT (access/refresh, rotation, jti, HttpOnly), CORS (credentials), Helmet, rate-limit (token bucket)  
-**DB/ORM:** PostgreSQL, Prisma (schema/migrate/seed), SQL (JOIN/indexes, JSONB, GIN), cursor pagination  
-**Testing:** Jest, Supertest  
-**DevOps:** Docker, docker-compose, Nginx, Linux, `.env` + Zod validation, GitHub Actions (lint/test/build)  
-**Tools:** Git, Postman/Insomnia, psql, Swagger/OpenAPI  
-**Additionally:** Web3 (Solidity/ethers.js, IPFS — basics), C++ (STL — basics), React/Vite/Axios — basics
-
-## Projects {#projects}
-
-### 🐾 AllAboutPet — Express→Fastify, TypeScript, Prisma, PostgreSQL
-
-CRUD for pets/events/docs; JWT: access (header) + refresh (HttpOnly, rotation, DB sessions); **Zod → OpenAPI**; uploads (Multer, **SHA-256**, local → **MinIO/S3**); **cursor pagination**; **GIN** for JSONB tags; centralized error handler + **Pino**; `/health`, `/ready`.  
-**DevOps/QA:** Dockerfile (multi-stage), docker-compose (api+pg[+redis+minio]), `.env.example` (+validation), Nginx, Jest/Supertest (20+), ESLint/Prettier, GitHub Actions (lint+test+build)  
-**Repo:** <https://github.com/NIMARS/all-about-pet>
-
-### 📝 Notes API — Fastify, TypeScript, Prisma, PostgreSQL
-
-CRUD + tag filter; **Zod → JSON Schema**, **Pino**; PostgreSQL: **GIN** on `tags` (JSONB), cursor `(created_at,id)`.  
-**Docs/DevOps/QA:** Swagger (/docs), docker-compose (api+pg), Jest/Supertest (20+)  
-**Repo:** <https://github.com/NIMARS/notes-api>
-
-### ✅ TodoApp — PERN, TypeScript
-
-Backend: Node.js + Express (REST), Frontend: React + Vite; PostgreSQL; Swagger; integration tests (Jest + Supertest).  
-**Repo:** <https://github.com/NIMARS/todo-pern-ts>
-
-### 🧪 Engineering Data dApp — Fastify, TS, ethers.js, Solidity
-
-**EIP-712** signatures, `Transfer` event subscription, ACL (admin/user), IPFS; Solidity contracts (Hardhat, tests, OZ), deploy scripts; backend: ethers.js (RPC retries, rate-limit).  
+**Core:** Node.js, TypeScript, Express, Fastify, REST API, PostgreSQL, SQL, Prisma (ORM), MongoDB, JWT, OAuth2, Docker, Git, Swagger/OpenAPI, Jest, Supertest, Linux, English C1  
+**Additional:** Zod, CORS, Nginx (basic), CI/CD (basic: GitLab CI / GitHub Actions), Solidity/Hardhat/ethers.js, IPFS, React/Vite, Axios, GrammY, HTML/CSS, C++ (STL)
 
 ## Experience {#experience}
 
-**Lead Specialist** · Institute of Information Technologies (03.2022–10.2024) — PostgreSQL, server-side scripts/integrations, documentation.
-**Assistant** · St. Petersburg State Marine Technical University (10.2020–10.2024) — teaching materials and practice in C++/Python/Computer Science, projects (Git, code review).
-**Engineer** · Radio Control Technologies and Gamma (04.2018–02.2022) — C++/Java utilities and libraries.
+**Lead Specialist (R&D / internal systems)** · Institute of Information Technologies · 02.2023 – 10.2025  
 
-## Education {#education}
+- Built REST APIs in Node.js/TypeScript for a data visualization/analytics system: validation, error handling, RBAC, PostgreSQL integration; used by **5–20** internal users.  
+- Designed and maintained the PostgreSQL layer: complex queries (joins/windows/aggregations), views/indexes; analyzed plans (EXPLAIN/ANALYZE) for reporting and analytics.  
+- Worked on an EVM-based data verification platform: Solidity smart contracts, Hardhat testing, Node.js integration via ethers.js.  
+- Participated in code reviews, onboarding, and technical discussions (module boundaries, ownership, requirements).  
+- Developed Java/Scala modules within an ERP ecosystem.  
+- Led delivery of **6** internal projects.  
+- Extra: ERP/PLM/PDM/CAD ops + infrastructure (HCI Sangfor), documentation; R&D prototypes (AR/MR/XR, big data); teaching Computer Science.
 
-**SPbSMTU** — B.Sc. in Applied Mathematics, M.Sc. in Computer Science and Engineering, Ph.D. studies (postgraduate study) in Mathematical Modeling, Numerical Methods, and Software Systems (Teacher Researcher).
+## Education
+
+- **PhD studies (2020–2024)** · SPbSMTU — Mathematical Modeling, Numerical Methods and Software Systems  
+- **M.Sc. (2018–2020)** · SPbSMTU — Computer Science and Engineering  
+- **B.Sc. (2014–2018)** · SPbSMTU — Applied Mathematics  
+
+## Projects {#projects}
+
+### 📝 Notes API — backend service
+
+Fastify/TypeScript, Prisma (PostgreSQL), Swagger/OpenAPI, Zod, Jest/Supertest, Docker Compose  
+
+- CRUD + tag filters (tagsAny/tagsAll).  
+- JSONB + GIN, cursor pagination (createdAt, id).  
+- Unified error format + reqId, structured logging (Pino).  
+- 20+ e2e tests, /docs.  
+**Repo:** <https://github.com/NIMARS/notes-api>
+
+### 🐾 All About Pet — fullstack (API + Web, monorepo)
+
+Node.js/Express/TypeScript, Prisma (PostgreSQL), React/Vite, Zod, Multer, MinIO/S3  
+
+- Pets/events/docs/favorites.  
+- Auth: JWT access + refresh (HttpOnly, rotation), CORS.  
+- Uploads (Multer) → MinIO/S3 storage.  
+**Repo:** <https://github.com/NIMARS/all-about-pet>
+
+### 🗒️ Notes Platform — fullstack with auth
+
+Express/TypeScript, Prisma (PostgreSQL), Vue 3/Vite, Swagger/OpenAPI, Zod, JWT, bcrypt  
+
+- Personal user notes, CRUD + done status.  
+- Auth: JWT + bcrypt; API docs (/docs).  
+**Repo:** <https://github.com/NIMARS/Notes-Platform-by-NIMARS>
+
+### ✅ TodoApp — PERN demo
+
+Express/TypeScript, PostgreSQL, React/Vite, Swagger/OpenAPI, Jest/Supertest  
+
+- TODO CRUD; Swagger + integration tests.  
+**Repo:** <https://github.com/NIMARS/todo-pern-ts>
 
 ## Contacts {#contacts}
 
