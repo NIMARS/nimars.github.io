@@ -36,9 +36,9 @@ og_image: /assets/img/og-en.png
 
 ## Education
 
-- **PhD studies (2020–2024)** · SPbSMTU — Mathematical Modeling, Numerical Methods and Software Systems  
-- **M.Sc. (2018–2020)** · SPbSMTU — Computer Science and Engineering  
-- **B.Sc. (2014–2018)** · SPbSMTU — Applied Mathematics  
+- **PhD studies (2020–2024)** · SMTU — Mathematical Modeling, Numerical Methods and Software Systems  
+- **M.Sc. (2018–2020)** · SMTU — Computer Science and Engineering  
+- **B.Sc. (2014–2018)** · SMTU — Applied Mathematics  
 
 ## Projects {#projects}
 
