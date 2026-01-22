@@ -32,7 +32,7 @@ og_image: /assets/img/og-en.png
 - Participated in code reviews, onboarding, and technical discussions (module boundaries, ownership, requirements).  
 - Developed Java/Scala modules within an ERP ecosystem.  
 - Led delivery of **6** internal projects.  
-- Extra: ERP/PLM/PDM/CAD ops + infrastructure (HCI Sangfor), documentation; R&D prototypes (AR/MR/XR, big data); teaching Computer Science.
+- Extra: ERP/PLM/PDM/CAD ops + infrastructure (HCI Sangfor), documentation; R&D prototypes (AR/MR/XR, big data); taught Computer Science.
 
 ## Education
 

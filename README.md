@@ -47,7 +47,7 @@ English C1.
 - Участвовал в code review, онбординге и технических обсуждениях (границы модулей, ответственность сервисов, требования).  
 - Разрабатывал отдельные модули на Java/Scala в рамках ERP-экосистемы.  
 - Руководил выполнением **6** внутренних проектов.  
-- Дополнительно: сопровождение ERP/PLM/PDM/CAD и инфраструктуры (HCI Sangfor), документация; R&D/прототипы (AR/MR/XR, big data); преподавание Computer Science.
+- Дополнительно: сопровождение ERP/PLM/PDM/CAD и инфраструктуры (HCI Sangfor), документация; R&D/прототипы (AR/MR/XR, big data); преподавал Computer Science.
 
 ---
 
@@ -132,7 +132,7 @@ English C1.
 - Participated in code reviews, onboarding, and technical discussions (module boundaries, ownership, requirements).  
 - Developed Java/Scala modules within an ERP ecosystem.  
 - Led delivery of **6** internal projects.  
-- Extra: ERP/PLM/PDM/CAD ops + infrastructure (HCI Sangfor), documentation; R&D prototypes (AR/MR/XR, big data); teaching Computer Science.
+- Extra: ERP/PLM/PDM/CAD ops + infrastructure (HCI Sangfor), documentation; R&D prototypes (AR/MR/XR, big data); taught Computer Science.
 
 ---
 
